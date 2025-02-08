@@ -12,7 +12,7 @@ public void setup()
 public void draw()
 {
   background(0);
-  sierpinski(0, height, coolLength);
+  sierpinski(0, 800, coolLength);
   // make a limit on what R, G, and B can be so that it can only range from blue to pink
   // pink = 255, 120, 145
   // blue = 120, 217, 255;
