@@ -41,9 +41,9 @@ public void draw()
 
 public void mouseDragged() //optional
 {
-  if(mousePressed == true) {
+  //if(mousePressed == true) {
     coolLength = mouseX;
-  }
+  //}
   //if(mouseX >= pmouseX) {
   //  // turn pink
   //  R += colorChange;
