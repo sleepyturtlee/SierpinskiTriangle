@@ -17,7 +17,7 @@ public void draw()
   // pink = 255, 120, 145
   // blue = 120, 217, 255;
   // blue
-  System.out.println(R + " " + G + " " + B);
+  //System.out.println(R + " " + G + " " + B);
   if(R < 120) {
     R = 255;
   }
@@ -43,19 +43,19 @@ public void mouseDragged() //optional
 {
   //if(mousePressed == true) {
     coolLength = mouseX;
-  //}
-  //if(mouseX >= pmouseX) {
-  //  // turn pink
-  //  R += colorChange;
-  //  G -= colorChange;
-  //  B -= colorChange;
-  //}
-  //if(mouseX <= pmouseX) {
-  //    // turn blue
-  //  R -= colorChange;
-  //  G += colorChange;
-  //  B += colorChange;
-  //}
+ // }
+  if(mouseX >= pmouseX) {
+    // turn pink
+    R += colorChange;
+    G -= colorChange;
+    B -= colorChange;
+  }
+  if(mouseX <= pmouseX) {
+      // turn blue
+    R -= colorChange;
+    G += colorChange;
+    B += colorChange;
+  }
 }
 public void sierpinski(int x, int y, int len) 
 {
