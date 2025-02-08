@@ -1,4 +1,4 @@
-public int coolLength = 0;
+public int coolLength = 400;
 public int R = 120;
 public int G = 217;
 public int B = 255;
