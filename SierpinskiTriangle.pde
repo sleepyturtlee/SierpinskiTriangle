@@ -44,18 +44,18 @@ public void mouseDragged() //optional
   if(mousePressed == true) {
     coolLength = mouseX;
   }
-  if(mouseX >= pmouseX) {
-    // turn pink
-    R += colorChange;
-    G -= colorChange;
-    B -= colorChange;
-  }
-  if(mouseX <= pmouseX) {
-      // turn blue
-    R -= colorChange;
-    G += colorChange;
-    B += colorChange;
-  }
+  //if(mouseX >= pmouseX) {
+  //  // turn pink
+  //  R += colorChange;
+  //  G -= colorChange;
+  //  B -= colorChange;
+  //}
+  //if(mouseX <= pmouseX) {
+  //    // turn blue
+  //  R -= colorChange;
+  //  G += colorChange;
+  //  B += colorChange;
+  //}
 }
 public void sierpinski(int x, int y, int len) 
 {
