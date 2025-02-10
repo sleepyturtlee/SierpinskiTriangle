@@ -2,7 +2,7 @@ public int coolLength = 400;
 public int R = 120;
 public int G = 217;
 public int B = 255;
-public int colorChange = 1;
+public int colorChange = 3;
 
 public void setup()
 {
